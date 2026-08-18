@@ -1,5 +1,17 @@
 # Promptfoo: LLM evals & red teaming
 
+> ## About this fork
+>
+> `helix-ventures/promptfoo-fork` is a fork of [`promptfoo/promptfoo`](https://github.com/promptfoo/promptfoo). It carries **no changes of its own**: as observed on 2026-08-18 it was 0 commits ahead of upstream and 1,684 commits behind, and its `main` tip (`d0ba0780b01f900f9b78670b16e8fadb897afe20`, 2026-03-16) is a commit that exists unchanged in the upstream repository. It is a point-in-time snapshot, not a modified distribution.
+>
+> Consequences for anyone reading the rest of this document, which is upstream's and describes the upstream project:
+>
+> - **This snapshot receives no upstream updates, including security fixes.** `SECURITY.md` states that fixes are not backported and that anything older than the latest published release is unsupported. This tree is pinned at version 0.121.2 and nothing released upstream after 2026-03-16 is present here.
+> - **The badges and most links above point at upstream**, not at this repository. The CI badge reflects upstream's workflow runs.
+> - **No GitHub Actions workflow has ever run in this fork.** The 12 workflow files under `.github/workflows/` were inherited from upstream; the Actions API registers no workflows and no runs for this repository.
+> - **Issues are disabled here.** Bug reports, contributions and security disclosures belong upstream, by the routes described in `CONTRIBUTING.md` and `SECURITY.md`. Do not open a public issue for a security report in either repository.
+> - **Install the published package, not this tree**, unless you specifically need the March 2026 snapshot. `npm install -g promptfoo` fetches the current upstream release.
+
 <p align="center">
   <a href="https://npmjs.com/package/promptfoo"><img src="https://img.shields.io/npm/v/promptfoo" alt="npm"></a>
   <a href="https://npmjs.com/package/promptfoo"><img src="https://img.shields.io/npm/dm/promptfoo" alt="npm"></a>
